@@ -83,6 +83,8 @@ class key_manager {
     ar & JUBA_MEMBER(key2id_) & JUBA_MEMBER(id2key_);
   }
 
+  uint64_t append_key(const std::string& key);
+
   jubatus::util::data::unordered_map<std::string, uint64_t> key2id_;
   jubatus::util::data::unordered_map<uint64_t, std::string> id2key_;
 
