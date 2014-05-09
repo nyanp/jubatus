@@ -19,7 +19,6 @@
 #include <map>
 #include <string>
 #include <vector>
-#include <glog/logging.h>
 #include "jubatus/util/data/intern.h"
 #include "jubatus/util/data/serialization.h"
 #include "jubatus/util/data/serialization/unordered_map.h"
